@@ -34,6 +34,8 @@ Sam Saccone. This program is based in part on QSSTV and, like it, is released un
 ### What's New?
 #### Features
 
+- **MMSSTV template importer** — preview and editable import of `.mtm` templates, plus batch conversion to `.qtempl` with collision-safe filenames and per-file diagnostics. See [workflow, compatibility and validation](docs/MMSSTV-IMPORT.md).
+
 - **Experimental KG-STV** — native image/ASCII text RX/TX and manual BSR repair, with MSK/4L-FSK tabs and audio-file decoding. See [KG-STV implementation and validation](docs/KGSTV.md); original outbound/BSR and physical-device interoperability remain unverified.
 
 - **Sample-rate calibration** - from WWV time ticks, NTP, or the slant of a received SSTV picture
